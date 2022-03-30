@@ -5,7 +5,7 @@ import 'package:flutter_redux_module_movie_app/redux/reducers/person_reducer.dar
 import 'package:flutter_redux_module_movie_app/redux/states/app_state.dart';
 
 AppState appReducer(AppState state, action) {
-  return AppState(userDataState: movieDataReducer(state.userDataState!, action,
+  return AppState(movieDataState: movieDataReducer(state.movieDataState!, action,
   ), personDataState: personDataReducer(state.personDataState!, action),
    genreDataState: genreDataReducer(state.genreDataState!, action),
     movieDetailDataState: movieDetailDataReducer(state.movieDetailDataState! , action),

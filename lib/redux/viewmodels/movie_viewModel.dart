@@ -10,7 +10,7 @@ class MovieViewModel {
   MovieViewModel({this.isFetching, this.fetchingError, this.userData});
 
   factory MovieViewModel.fromStore(Store<AppState> store) => MovieViewModel(
-      isFetching: store.state.userDataState!.isFetching,
-      userData: store.state.userDataState!.movies,
-      fetchingError: store.state.userDataState!.fetchingError);
+      isFetching: store.state.movieDataState!.isFetching,
+      userData: store.state.movieDataState!.movies,
+      fetchingError: store.state.movieDataState!.fetchingError);
 }

@@ -2,7 +2,6 @@ import 'package:flutter_redux_module_movie_app/redux/actions/movie_detail_action
 import 'package:flutter_redux_module_movie_app/redux/states/movie_detail_state.dart';
 import 'package:redux/redux.dart';
 
-var data;
 final movieDetailDataReducer = combineReducers<MovieDetailDataState>([
   TypedReducer<MovieDetailDataState, GetMovieDetailDataSuccessAction>(_getMovieDetailDataSuccess),
   TypedReducer<MovieDetailDataState, GetMovieDetailDataFailedAction>(_getMovieDetailDataFailed),

@@ -7,13 +7,13 @@ import 'movie_detail_state.dart';
 
 @immutable
 class AppState extends Equatable{
-  final MovieDataState? userDataState;
+  final MovieDataState? movieDataState;
   final PersonDataState? personDataState;
   final GenreDataState? genreDataState;
   final MovieDetailDataState? movieDetailDataState;
 
   const AppState({
-    @required this.userDataState,
+    @required this.movieDataState,
     @required this.personDataState,
     @required this.genreDataState,
     @required this.movieDetailDataState
@@ -21,7 +21,7 @@ class AppState extends Equatable{
 
   factory AppState.initial() {
     return AppState(
-      userDataState: MovieDataState.initial(),
+        movieDataState: MovieDataState.initial(),
       personDataState: PersonDataState.initial(),
       genreDataState: GenreDataState.initial(),
       movieDetailDataState: MovieDetailDataState.initial()
@@ -35,7 +35,7 @@ class AppState extends Equatable{
     MovieDetailDataState? movieDetailDataState
   }) {
     return AppState(
-      userDataState: movieState ?? this.userDataState,
+        movieDataState: movieState ?? this.movieDataState,
       personDataState: personState ?? this.personDataState,
       genreDataState: genreState ?? this.genreDataState,
       movieDetailDataState: movieDetailDataState ?? this.movieDetailDataState
@@ -51,5 +51,5 @@ class AppState extends Equatable{
   //     other is AppState && userDataState == other.userDataState;
 
   @override
-  List<Object?> get props => [userDataState, personDataState, genreDataState, movieDetailDataState];
+  List<Object?> get props => [movieDataState, personDataState, genreDataState, movieDetailDataState];
 }
