@@ -18,4 +18,10 @@ class AppConstants
   static const segoeUITextStyleString = "SegoeUI";
   static const baseUrl = 'https://api.themoviedb.org/3';
   static const apiKey = '2ad549aaef8325f1997ab55bfe27e1f4';
+  static const successiveLogo = "assets/images/successive_logo.png";
+  static const marvelLogo = "assets/images/marvel_logo.png";
+  static const poweredBy = "Powered by :";
+  static const successive = "Successive";
+  static const technologies = "Technologies";
+  static const apps = "APPS";
 }

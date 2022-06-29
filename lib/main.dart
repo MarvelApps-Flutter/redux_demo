@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
 import 'package:flutter_redux_module_movie_app/constants/app_constants.dart';
 import 'package:flutter_redux_module_movie_app/redux/store.dart';
+import 'package:flutter_redux_module_movie_app/screens/splash_screen.dart';
 import 'screens/home_screen.dart';
 
 void main() => runApp(MyApp());
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
           visualDensity: VisualDensity.adaptivePlatformDensity,
         ),
         debugShowCheckedModeBanner: false,
-        home: const HomeScreen(),
+        home: const SplashScreen(),
       ),
     );
   }
