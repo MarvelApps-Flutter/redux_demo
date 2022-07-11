@@ -3,7 +3,7 @@
 A new flutter app for demonstrating Redux functionality based on movie api.
 
 # Demo
-<img src="https://github.com/MarvelApps-Flutter/redux_demo/blob/dev/screenshots/gif/demo.gif" height="480px"></td>
+<img src="https://github.com/MarvelApps-Flutter/redux_demo/blob/master/screenshots/gif/demo.gif" height="480px"></td>
 
 # Android Screenshots
 
@@ -13,8 +13,8 @@ A new flutter app for demonstrating Redux functionality based on movie api.
      <td align="center" valign="center">Movie Detail Screen</td>
   </tr>
   <tr>
-    <td><img src="https://github.com/MarvelApps-Flutter/redux_demo/blob/dev/screenshots/android/android1.png" height="480px"></td>
-    <td><img src="https://github.com/MarvelApps-Flutter/redux_demo/blob/dev/screenshots/android/android2.png" height="480px"></td>
+    <td><img src="https://github.com/MarvelApps-Flutter/redux_demo/blob/master/screenshots/android/android1.png" height="480px"></td>
+    <td><img src="https://github.com/MarvelApps-Flutter/redux_demo/blob/master/screenshots/android/android2.png" height="480px"></td>
   </tr>
  </table>
 
@@ -28,7 +28,7 @@ A new flutter app for demonstrating Redux functionality based on movie api.
      <td align="center" valign="center">Movie Detail Screen</td>
   </tr>
   <tr>
-    <td><img src="https://github.com/MarvelApps-Flutter/redux_demo/blob/dev/screenshots/ios/ios1.png" height="480px"></td>
-    <td><img src="https://github.com/MarvelApps-Flutter/redux_demo/blob/dev/screenshots/ios/ios2.png" height="480px"></td>
+    <td><img src="https://github.com/MarvelApps-Flutter/redux_demo/blob/master/screenshots/ios/ios1.png" height="480px"></td>
+    <td><img src="https://github.com/MarvelApps-Flutter/redux_demo/blob/master/screenshots/ios/ios2.png" height="480px"></td>
   </tr>
  </table>
