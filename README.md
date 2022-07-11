@@ -2,6 +2,9 @@
 
 A new flutter app for demonstrating Redux functionality based on movie api.
 
+# Demo
+<img src="https://github.com/MarvelApps-Flutter/redux_demo/blob/dev/screenshots/gif/demo.gif" height="480px"></td>
+
 # Android Screenshots
 
 <table>
